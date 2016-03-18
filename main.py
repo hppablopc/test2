@@ -44,7 +44,7 @@ def main():
 
     #construct definite list
     sites = construct_site_list(not_in_list)
-    ALALALALAALL
+    
     #ASCAT implementation.
     ascat = satellite.ASCAT(initialDate, finalDate)
     ascat.convert_to_datetime()
