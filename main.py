@@ -32,6 +32,7 @@ def main():
     parser.add_argument('satellite', metavar='SATELLITE_NAME', type=str, nargs='?',\
 		      help='satellite name')
 
+	
     args=parser.parse_args()
     initialDate = args.date[0]
     finalDate = args.date[1]
