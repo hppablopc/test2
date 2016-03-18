@@ -29,8 +29,8 @@ def main():
     parser.add_argument('date', metavar='date_time_YYYY.MM.DD', type=str, nargs=2,\
 		      help='time interval')
     #specify sattelites to exclude from command line. TODO: change to flag!
-    parser.add_argument('satellite', metavar='SATELLITE_NAME', type=str, nargs='?',\
-		      help='satellite name')
+#    parser.add_argument('satellite', metavar='SATELLITE_NAME', type=str, nargs='?',\
+#		      help='satellite name')
 
 	
     args=parser.parse_args()
